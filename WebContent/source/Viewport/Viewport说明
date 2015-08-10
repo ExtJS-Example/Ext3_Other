@@ -1,0 +1,20 @@
+一、概述	
+
+	'边界布局'(BorderLayout)： 边界布局将画面分成东、南、西、北、中五个区域。
+
+	Viewport使用的使用的就是边界布局，虽然不是必须的，但是使用边界布局是最常用的的方式。
+
+	使用边界布局注意以下几个问题： 
+	1. 一个页面只能有一个Viewport对象；
+	2. Viewport必须要指定中间区域，其他区域可有可无， 如果没有指定中间区域，将会无情的抛出异常。
+	3. Viewport没有滚动条
+	
+二、Viewport的基本使用
+
+	Viewport的完整类名为Ext.Viewport。为了让Viewport实现边界布局，必须设置layout选项为'border'，表示边界布局。
+	
+	Viewport的每一个区域都是一个面板（Ext.Panel)，当然，也可以是它的子类。总之，创建一个面板后为该面板指定region即可。
+region配置了面板放置的位置，一共有五个值：west、east、south、north、center。
+	
+	如果要为面板增加一个分隔条，配置split选项为true。
+	

@@ -1,0 +1,29 @@
+.clear{clear:both}
+.center_middle{
+	text-align:center;
+	vertical-align:middle;
+	line-height:100px;
+}
+.contain{
+	width:283x;
+	height:230px;
+	margin:0px auto;
+	background-color:yellow;
+	padding:0px 8px 0px 8px;
+}
+.box1{
+	float:left;
+	width:139px;
+	height: 100px;
+	border:1px #33CCCC solid;
+}
+ .box2{
+	float:left;
+	width:140px;
+	height:100px;
+	border:1px #FF9999 solid;
+}
+.box3{
+	width:281px;
+	border:1px #0099CC solid;
+}

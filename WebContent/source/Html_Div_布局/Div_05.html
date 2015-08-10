@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DIV内的文字垂直居中</title>
+    <link rel="stylesheet" href="Div_05.css" type="text/css">
+  </head>
+  
+  <body>
+  	我们知道要让一个<td>中的内容垂直居中对齐, 是件很简单的事情, 如下:
+  	<table width="281" height="137" border="0" align="center" cellpadding="0" cellspacing="0">
+  	  <tr>
+  	  	<td align="center" valign="middle">测试</td>
+  	  	<td align="center" valign="middle">测试</td>
+  	  </tr>
+  	  <tr>
+  	  	<td align="center" valign="middle">测试</td>
+  	  	<td align="center" valign="middle">测试</td>
+  	  </tr>
+  	</table>
+  	align="center"   实现了 单元格 内的元素水平居中<br>
+  	valign="center"  实现了 单元格 内元素的垂直居中<br><br>
+  	
+  	下面是用DIV实现上述效果
+  	<div class="box c">DIV内的文字垂直居中</div>
+  	虽然CSS当中也有text-align:center属性可以实现DIV文本内的元素水平居中, vertical-align:center是实现DIV文本内的垂直居中<br>
+  	但是, 当我们运行上述代码后, 发现并不能达到我们期望的效果<br><br>
+  	
+  	<div class="box1 c">DIV内的文字垂直居中</div>
+  	其实, 我们只要给.box增加一个属性: line-height:100px;(行高和DIV的高度一致即可)
+  </body>
+</html>

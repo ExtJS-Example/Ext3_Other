@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Div块的水平并排, 垂直并排</title>
+    <style type="text/css">
+      .lay1{width: 200px; height: 20px; border: 1px solid #FF6699;}
+      .lay2{width: 200px; height: 20px; border: 1px solid #FF6699;}
+      .lay3{width: 200px; height: 20px; border: 1px solid #FF6699;}
+      
+      .lay4{width: 200px; height: 20px; border: 1px solid #FF6699; float: left}
+      .lay5{width: 200px; height: 20px; border: 1px solid #FF6699; float: left}
+      .lay6{width: 200px; height: 20px; border: 1px solid #FF6699; float: left}
+    </style>
+  </head>
+  
+  <body>
+  	<p>我们这里有三个div块, 三个div块呈上下并列分布, 这种方式就是常见的div"垂直平铺方式", 也是最常见的布局网页的方式</p>
+  	<div class="lay1"></div>
+  	<div class="lay2"></div>
+  	<div class="lay3"></div>
+  	
+  	<br/>
+  	<p>将上下垂直排列改为水平排列, 只要要相应的样式中加一个float:left即可</p>
+  	<div class="lay4"></div>
+  	<div class="lay5"></div>
+  	<div class="lay6"></div>
+  </body>
+</html>

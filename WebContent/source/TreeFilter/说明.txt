@@ -1,0 +1,4 @@
+将此文件夹放到Ext根目录下即可直接查看。
+PinyinFilter.js：提供进行拼音过滤所需要的函数
+TreeFilter.js：自定义的类，提供树结点的过滤功能
+TreeFilterTest.js:演示用JS文件，包含一个简单的小例子
